@@ -20,7 +20,7 @@ Configuramos el puerto de la app para que angular le de permisos a los que pueda
 Una vez tengamos corriendo nuestra app en ese puerto vamos a nuestra terminal con el comando ifconfig y copiamos la ip adicional le agregamos dos puntos y el puerto en el que corre nuestra app  y  ya podemos ver nuestra app en toda la red  ---> 192.168.100.14:4100  
 
 <div >
- <img src="https://postimg.cc/hhDr5rmS" title="App Movil" alt="App Movil" width="700" height="600" />
+ <img src="https://i.postimg.cc/dQdxDNtT/conexion-Movil.jpg" title="App Movil" alt="App Movil" width="534" height="800" />
 </div>
 
 
