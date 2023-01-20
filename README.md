@@ -31,16 +31,17 @@ seguido va el nombre de la carpeta en la que vamos a generar el nuevo modulo y d
 
 <img src="https://i.postimg.cc/HkGmmk4d/Auth-Module.png" title="Auth" alt="Auth" />
 
+## ng g m shared/Shared --flat
+Podemos usar este comando En caso de Generar solo el modulo es decir que ya existe una carpeta en la que bamos a generar el archivo 
+<div>
+<img src="https://i.postimg.cc/tgQL1xPS/shared.png" title="Shared" alt="Shared" />
+</div>
 
-En caso de Generar solo el modulo podemos hacerlo asi -->  ng g m shared/Shared --flat
-<img src="https://i.postimg.cc/tgQL1xPS/shared.png" title="Auth" alt="Auth" />
-
-
-
-En caso de querer generar componentes podemos usar el comando ng g c Example --> Para este caso nos genera un componente completo en el directorio raiz llamado Example con su archivo html, css y archivo de rutas
-
-<img src="https://i.postimg.cc/pLTDDGQy/example.png" title="Auth" alt="Auth" />
-
+## ng g c Example
+En caso de querer generar componentes podemos usar este comando. Para este caso nos genera un componente completo en el directorio raiz llamado Example con su archivo html, css y archivo de rutas
+<div>
+<img src="https://i.postimg.cc/pLTDDGQy/example.png" title="Example" alt="Example" />
+</div>
 
 
 
