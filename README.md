@@ -25,9 +25,23 @@ Una vez tengamos corriendo nuestra app en ese puerto vamos a nuestra terminal co
 
 
 ## ng g m modules/Auth --routing 
-Comando para generar nuevos modulos en angular e indicarle que es un modulo con acceso a rutas
+Comando para generar nuevos modulos en angular e indicarle que es un modulo con acceso a rutas,
 despues de indicar el comando inicial ng la letra g  indica generate y la m representa modules,
-seguido va el nombre de la carpeta en la que vamos a generar el nuevo modulo y despues El nombre de el nuevo Modulo como lo es en este caso el modulo Auth, el --routing indica que es un modulo con acceso a enrutamiento dentro de nuestro proyecto 
+seguido va el nombre de la carpeta en la que vamos a generar el nuevo modulo y despues El nombre de el nuevo Modulo como lo es en este caso el modulo Auth, el --routing indica que es un modulo con acceso a enrutamiento dentro de nuestro proyecto.  Esto nos genera el modulo dentro de una carpeta de la siguiente forma.
+
+<img src="https://i.postimg.cc/HkGmmk4d/Auth-Module.png" title="Auth" alt="Auth" />
+
+
+En caso de Generar solo el modulo podemos hacerlo asi -->  ng g m shared/Shared --flat
+<img src="https://i.postimg.cc/tgQL1xPS/shared.png" title="Auth" alt="Auth" />
+
+
+
+En caso de querer generar componentes podemos usar el comando ng g c Example --> Para este caso nos genera un componente completo en el directorio raiz llamado Example con su archivo html, css y archivo de rutas
+
+<img src="https://i.postimg.cc/pLTDDGQy/example.png" title="Auth" alt="Auth" />
+
+
 
 
 
