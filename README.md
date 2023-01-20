@@ -38,7 +38,7 @@ Podemos usar este comando En caso de Generar solo el modulo es decir que ya exis
 </div>
 
 ## ng g c Example
-En caso de querer generar componentes podemos usar este comando. Para este caso nos genera un componente completo en el directorio raiz llamado Example con su archivo html, css y archivo de rutas
+En caso de querer generar componentes podemos usar este comando. Para este caso nos genera un componente completo en el directorio raiz llamado Example con su archivo html, css y archivo de rutas. Si queremos crear el componente en una de las carpetas que ya conocemps lo podemos ejecutar mas o menos asi ---> ng g c shared/components/SideBar
 <div>
 <img src="https://i.postimg.cc/pLTDDGQy/example.png" title="Example" alt="Example" />
 </div>
