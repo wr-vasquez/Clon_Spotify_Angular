@@ -24,7 +24,10 @@ Una vez tengamos corriendo nuestra app en ese puerto vamos a nuestra terminal co
 </div>
 
 
-
+## ng g m modules/Auth --routing 
+Comando para generar nuevos modulos en angular e indicarle que es un modulo con acceso a rutas
+despues de indicar el comando inicial ng la letra g  indica generate y la m representa modules,
+seguido va el nombre de la carpeta en la que vamos a generar el nuevo modulo y despues El nombre de el nuevo Modulo como lo es en este caso el modulo Auth, el --routing indica que es un modulo con acceso a enrutamiento dentro de nuestro proyecto 
 
 
 
