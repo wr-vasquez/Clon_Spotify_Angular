@@ -4,10 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
  
-  // {
-  //   path: '',
-  //   component: ExampleComponent
-  // },
+   {
+     path: '',//TODO: localhost:4200/
+     //Estos modulos tienen que tener routing
+     loadChildren:() => import(`./modules/home/home.module`).then(m => m.HomeModule)
+   }
   
 ];
 

@@ -43,7 +43,7 @@ En caso de querer generar componentes podemos usar este comando. Para este caso 
 <img src="https://i.postimg.cc/pLTDDGQy/example.png" title="Example" alt="Example" />
 </div>
 
-
-
-
-
+<div>
+Se inicia el archivo Side Bar 
+<img src="https://i.postimg.cc/tgPjCLyg/Side-Bar.png" title="Side Bar" alt="Side Bar" />
+</div>
