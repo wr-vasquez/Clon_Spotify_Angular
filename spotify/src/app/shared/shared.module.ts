@@ -15,9 +15,12 @@ import { HeaderUserComponent } from './components/header-user/header-user.compon
   imports: [
     CommonModule
   ],
-  //Compartir los modulos importados
-  exports: [
- SideBarComponent
+  //Compartir los modulos importados con otros modulos
+  exports: [  
+ SideBarComponent,
+ MediaPlayerComponent,
+ HeaderUserComponent
+ 
   ]
 })
 export class SharedModule { }

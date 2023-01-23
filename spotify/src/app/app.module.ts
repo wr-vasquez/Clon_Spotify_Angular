@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [ // COMPONENTES, DIRECTIVAS Y PIPES
-  AppComponent
+  AppComponent,
     
   ],
   imports: [  //SOLO SE IMPORTAN OTROS MODULOS 
