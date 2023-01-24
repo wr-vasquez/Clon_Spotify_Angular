@@ -47,3 +47,9 @@ En caso de querer generar componentes podemos usar este comando. Para este caso 
 Se inicia el archivo Side Bar 
 <img src="https://i.postimg.cc/tgPjCLyg/Side-Bar.png" title="Side Bar" alt="Side Bar" />
 </div>
+
+## Seccion de Media Player
+<div>
+Se Inicia a desarrollar el apartado del Media Player de manera personalizada y la Seccion donde apareceran las canciones
+<img src="https://i.postimg.cc/cJ8rdjMc/Media-Player.png" title="Media Player" alt="Media Player" />
+</div>
