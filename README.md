@@ -53,3 +53,9 @@ Se inicia el archivo Side Bar
 Se Inicia a desarrollar el apartado del Media Player de manera personalizada y la Seccion donde apareceran las canciones
 <img src="https://i.postimg.cc/cJ8rdjMc/Media-Player.png" title="Media Player" alt="Media Player" />
 </div>
+
+<div>
+Se Crea La Seccion visual Card Player: En este modulo se visualiza las imagenes y albun de las canciones
+<img src="https://i.postimg.cc/NjTH0LdC/Card-Player.png" title="Card Player" alt="Card Player" />
+
+</div>
