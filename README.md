@@ -59,3 +59,6 @@ Se Crea La Seccion visual Card Player: En este modulo se visualiza las imagenes 
 <img src="https://i.postimg.cc/NjTH0LdC/Card-Player.png" title="Card Player" alt="Card Player" />
 
 </div>
+
+##  ng g p shared/pipe/orderList
+Este es un comando para generar pipe: "g" de Gerated "p" de pipe, shared --> Es el nombre de la carpeta donde se va a crear, pipe es el nombre de la sub-carpeta y orderList es el nombre del pipe.
