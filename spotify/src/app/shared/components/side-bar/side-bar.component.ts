@@ -26,7 +26,7 @@ export class SideBarComponent  implements OnInit  {
       {
         name: 'Buscar',
         icon: 'uil uil-search',
-        router: ['/', 'history']
+        router: ['/', 'tracks']
       },
       {
         name: 'Tu biblioteca',
@@ -43,7 +43,8 @@ export class SideBarComponent  implements OnInit  {
       },
       {
         name: 'Canciones que te gustan',
-        icon: 'uil-heart-medical'
+        icon: 'uil-heart-medical',
+       
       }
     ]
 
@@ -77,6 +78,8 @@ export class SideBarComponent  implements OnInit  {
         }
       })
       console.log($event)
+
+      
     }
 
     
