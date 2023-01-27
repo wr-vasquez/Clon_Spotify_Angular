@@ -64,5 +64,5 @@ Se Crea La Seccion visual Card Player: En este modulo se visualiza las imagenes 
 Este es un comando para generar pipe: "g" de Gerated "p" de pipe, shared --> Es el nombre de la carpeta donde se va a crear, pipe es el nombre de la sub-carpeta y orderList es el nombre del pipe.
 
 <h3> ng g d shared/directives/ImgBroken</h3> 
-Este comando similar al anterior nos sirve para crear directivas de angular
+Este comando similar al anterior nos sirve para crear directivas de angular la cual nos sirve para reemplazar una imagen rota por otra 
 

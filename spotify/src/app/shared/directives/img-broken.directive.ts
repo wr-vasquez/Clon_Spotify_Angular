@@ -1,10 +1,20 @@
-import { Directive } from '@angular/core';
+import { Directive, ElementRef, HostListener} from '@angular/core';
 
 @Directive({
-  selector: '[appImgBroken]'
+  selector: 'img[appImgBroken]'
 })
 export class ImgBrokenDirective {
 
-  constructor() { }
+  //EL uso de estas directivas es reemplazar una imagen rota por otra cuando  no se encuentra 
+  @HostListener('error')handleError(): void {
+    const elNative = this.elHost.nativeElement
+    // console.log('Imagen No encontrada', this.elHost);
+    elNative.src = 'https://i.imgur.com/JmLr58c.jpeg'
+  }
+
+
+  constructor(private elHost: ElementRef) {
+   
+   }
 
 }
