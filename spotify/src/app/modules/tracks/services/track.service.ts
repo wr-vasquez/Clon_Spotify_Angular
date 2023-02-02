@@ -29,7 +29,9 @@ export class TrackService {
         cover: 'https://cdns-images.dzcdn.net/images/cover/f4ac5d5a119be8ebc1005f3ffbbb1f02/264x264.jpg'
       }
 
-      observer.next(trackExample);
+       setTimeout(() => {
+        observer.next([trackExample])
+       }, 3500)
     } )
   }
 }
